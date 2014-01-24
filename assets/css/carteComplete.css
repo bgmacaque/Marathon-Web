@@ -1,0 +1,33 @@
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a 
+{
+    color:black;
+}
+
+a:hover
+{
+    color: white;
+}
+
+#filter li {
+    display: inline-block;
+    font-family: "Mohave";
+    font-size: 2em;
+}
+
+#filter li a {
+    text-decoration: none;
+    color:#8e44ad;
+}
+
+#filter li a:hover {
+    text-decoration: none;
+    background-color: #f1c40f;
+    padding: 2px;
+}

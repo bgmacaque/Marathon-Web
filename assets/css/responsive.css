@@ -1,0 +1,22 @@
+html{
+    min-width: 500px;
+}
+
+body
+{
+    min-width: 500px;
+}
+
+@media(max-width: 638px){
+    #content{
+        margin-top: 45px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    header{
+        height: 100px;
+    }
+}

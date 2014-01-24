@@ -1,0 +1,30 @@
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#content
+{
+    margin-top: 130px;
+}
+
+.nomPlat a
+{
+    color: white;
+    background: rgba(0,0,0,0.6);
+    display: block;
+    text-align: center;
+    width: 130px;
+    height: 20px;
+}
+
+.plat
+{
+    vertical-align: top;
+    width: 130px;
+    height: 80px;
+    margin: 10px;
+    display: inline-block;
+}

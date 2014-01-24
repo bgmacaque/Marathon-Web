@@ -1,0 +1,15 @@
+.nomFav {
+    font-family: "Mohave";
+    font-size: 4em;
+}
+
+
+.nomFav a {
+    text-decoration: none;
+    color:#8e44ad;
+}
+.nomFav a:hover {
+    text-decoration: none;
+    background-color: #f1c40f;
+    padding: 2px;
+}

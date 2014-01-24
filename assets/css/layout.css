@@ -1,0 +1,418 @@
+@font-face {
+    font-family: "Mohave";
+    src: url(./fonts/Mohave.otf) format("OpenType");
+}
+@font-face {
+    font-family: "Mission-Script";
+    src: url(./fonts/Mission-Script.otf) format("OpenType");
+}
+
+header, body, html,h1 {
+    margin: 0;
+}
+
+h2 {
+        font-family: "Mohave";
+
+}
+
+#compte
+{
+    display: inline-block;
+}
+
+#content {
+    min-height: 450px;
+}
+
+
+header {
+    height: 100px;
+    background-color:#f0e4b2;
+}
+
+
+#themeSwitcher {
+    display: none;
+}
+
+#left-menu {
+    margin-left: 2%;
+    display: inline-block;
+    box-sizing:border-box;
+    min-width: 10px;
+}
+
+#top-header {
+    border-bottom-color:#f39c12;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+
+
+header h1 {
+    margin-left: 3%;
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    font-family: "Mission-Script";
+    font-size: 2em;
+}
+
+
+body {
+    margin-top: 110px;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#rightBlock {
+    display: inline-block;
+}
+/** header **/
+.top
+{ 
+    display: inline-block;
+    color: #FFF; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    background-color:#d35400; 
+    margin-right: 12px;
+    margin-top: 10px;
+    /*font-size: 20px; */
+    padding: 10px 20px; 
+    position: relative; 
+    overflow: hidden; 
+    -webkit-transition: background 0.3s ease, box-shadow 0.3s ease; 
+    -moz-transition: background 0.3s ease, box-shadow 0.3s ease; 
+    -ms-transition: background 0.3s ease, box-shadow 0.3s ease;
+     -o-transition: background 0.3s ease, box-shadow 0.3s ease; 
+    transition: background 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.top:hover
+{
+    background-color:#e67e22; 
+    box-shadow: 0px 3px 0px 0px #d35400; 
+}
+
+.top:active
+{ 
+    background-color:#e67e22; 
+    -webkit-box-shadow: inset 0px 3px 0px 0px #d35400; 
+    box-shadow: inset 0px 3px 0px 0px #d35400;
+}
+
+
+header {
+    position: fixed;
+    top:0;
+    background-color:#f0e4b2;
+    width: 100%;
+}
+
+#compte {
+ }
+
+#panier-top {
+    display: inline-block;
+    position: relative;
+    right: 0;
+    top:0;
+}
+
+/* REVOIR PANIER */
+#panier-top img {
+    height: 40px;
+}
+#panier-top:hover {
+    background-color: #d35400;
+    border-radius: 5px;
+}
+#ariane {
+    width: 100%;
+    background-color: #d35400;
+    height: 30px;
+    border-bottom:solid 2px #ae8966;
+}
+
+#ariane a{
+    font-size: 20px;
+    color:#FFF;
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+
+#ariane a:hover{
+    border-bottom: 3px solid #e74c3c;
+}
+
+#ariane span {
+    margin-left: 0.5em;
+    color:white;
+}
+
+.highlited {
+
+}
+
+footer {
+    margin-top: 20px;
+    border-top:solid 3px #b96a1e;
+    background-color: #f7a14d;
+    height:320px;
+}
+
+footer img {
+    display: inline-block;
+    margin-top: 20px;
+    float:right;
+}
+
+/** middle bottom **/
+
+#middle-bottom img{
+    height: 85px;
+    width: 85px;
+    padding: 10px;
+}
+
+#middle-bottom h2 {
+    color:#ca2c2c;
+}
+
+#middle-bottom  {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#middle-bottom p {
+    margin: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    text-align: left;
+    color:#5b5a59;
+    font-family: "Verdana";
+    font-size: 0.9em;
+}
+
+#left-top {
+        vertical-align: top;
+    margin-right: 25%;
+    display: inline-block;
+    box-sizing:border-box;
+    width: 40%;
+}
+
+#left-bottom {
+        vertical-align: top;
+    margin-right: 25%;
+
+    display: inline-block;
+    box-sizing:border-box;
+    width: 40%;
+}
+
+
+#right-top {
+        vertical-align: top;
+
+    display: inline-block;
+        box-sizing:border-box;
+    width: 30%;
+
+}
+
+#right-bottom {
+        vertical-align: top;
+
+    display: inline-block;
+    box-sizing:border-box;
+    width: 30%;
+}
+
+#right-bottom img {
+    background-color: #e74c3c;
+    
+}
+
+#left-bottom img {
+    background-color: #16a085;
+    
+}
+
+#left-top img {
+    background-color: #2c3e50;
+}
+
+#right-top img {
+    background-color: #8e44ad;
+}
+
+.rond {
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #e74c3c;
+    background-image:url('../img/kebab.jpg');
+
+}
+
+.rond + p {
+    font-family: "Mission-Script";
+    color:#e74c3c;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+.rond:hover {
+    border-radius: 50%;
+        background-image:url('../img/frite.jpg');
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #d35400;
+
+}
+
+body {
+    background-color: #f39c12;
+}
+
+
+
+#montantPanier {
+    display: inline-block;
+    vertical-align: middle;
+}
+#form_connexion, #form_subscribe{
+    padding: 20px;
+    background-image: radial-gradient(#f0e4b2, #eeb45d);
+    display: inline-block;
+    min-width: 400px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+#form_subscribe input[type="submit"], #form_subscribe input[type="button"], #form_connexion input[type="submit"], #form_connexion input[type="button"]{
+    background-color: #d35400;
+    border:none;
+    color: white;
+    border-radius: 0px 0px 0px 30px ;
+    margin: 0px;
+    margin-top: 20px;
+    height: 40px;
+    width: 45%;
+}
+
+#form_connexion input[type="button"], #form_subscribe input[type="button"]{
+    border-radius: 0px 0px 30px 0px ;
+}
+
+#form_connexion input[type="submit"]:hover, #form_connexion input[type="button"]:hover, #form_subscribe input[type="submit"]:hover, #form_subscribe input[type="button"]:hover{
+    background-color:#e67e22; 
+    cursor: pointer;
+}
+
+#form_connexion input, #form_subscribe input{
+    height: 30px;
+    min-width: 200px;
+
+}
+
+.nomTheme {
+    font-family: "Mohave";
+    font-size: 3em;
+}
+
+
+.nomTheme a {
+    text-decoration: none;
+    color:#8e44ad;
+}
+.nomTheme a:hover {
+    text-decoration: none;
+    background-color: #f1c40f;
+    padding: 2px;
+}
+
+
+.container {
+    margin-top: 3%;
+}
+.resto h1 {
+    font-family: "Mission-Script";
+    font-size: 2em;
+    text-align: center;
+
+    padding: 10px;
+    margin:3%;
+    background-color: #f1e4bc;
+    border-left:2px solid #cab061;
+    
+}
+
+.resto {
+
+}
+
+.resto a {
+
+    font-family: "Mohave";
+    font-size: 2em;
+       text-decoration: none;
+    color:#8e44ad;
+}
+
+.resto a:hover {
+    text-decoration: none;
+    background-color: #ebd1b7;
+    padding: 2px;
+}
+
+
+.resto span {
+    font-family: "Mission-Script";
+    font-size: 2em;
+    background-color: 
+}
+
+.resto {
+    margin-left: 2%;
+}
+
+/*#filter li {
+    display: inline-block;
+    font-family: "Mohave";
+    font-size: 2em;
+}
+
+#filter li a {
+    text-decoration: none;
+    color:#8e44ad;
+}
+
+#filter li a:hover {
+    text-decoration: none;
+    background-color: #f1c40f;
+    padding: 2px;
+}*/
+
+

@@ -1,0 +1,65 @@
+#slideshow
+{
+    border: solid #313d40 1px;
+    height: 200px;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide
+{
+    position: absolute;
+    margin-top: 00px;
+    height: 200px;
+    width: 700px;
+}
+
+.titreSlide
+{
+    position: absolute;
+    height: 35px;
+    width: 690px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(58,72,75,0.7);
+    padding-left: 10px;
+    line-height: 35px;
+}
+
+.navigation
+{
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+}
+
+.navigation span 
+{
+    color: #FFF;
+    background: rgba(0,0,0,0.7);
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.navigation span:hover, .navigation span.active
+{
+    color: #000;
+    background: rgba(255,255,255,0.7);
+}
+
+#scrollAnime a 
+{
+    float: none;
+    margin: auto;
+}
+
+#scrollAnime
+{
+    text-align: center;
+    margin: 0 auto
+}
+
+footer {
+}

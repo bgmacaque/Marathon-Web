@@ -1,0 +1,1 @@
+<h1>Description du restaurant <?php echo $resto->getAttr('nom_resto') ?></h1>
